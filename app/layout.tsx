@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Syne } from "@next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import Providers from "./providers";
 
 const syne = Syne({
   subsets: ["latin"],
@@ -90,7 +91,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body
         className={`${syne.className} scroll-smooth scrollbar-thin scrollbar-track-[#0E1016] scrollbar-thumb-[#212531]`}
       >
-        {children}
+        <Providers>
+          {children}
+        </Providers>
         <Analytics />
       </body>
     </html>

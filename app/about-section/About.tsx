@@ -2,6 +2,9 @@ import SongCarousel from "./SongCarousel";
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
+import Image from "next/image";
+import imge from "./image-3.jpg"
+import imge2 from "./image2.png"
 
 const About = () => {
   return (
@@ -39,11 +42,7 @@ const About = () => {
                 "In addition to my work in software development, I’m also an active leader and member of tech communities on campus, including the Google Developer Student Clubs and Microsoft Learn Student Ambassadors."
               }
             />
-            <AnimatedBody
-              text={
-                "Whether it’s binge-watching my favorite anime series, cheering on Manchester United, hanging out with friends, or discovering new music in my favorite genres like RnB, UK Drill, and Chill Rap, I’m always looking for ways to relax and unwind."
-              }
-            />
+            
             <AnimatedBody
               text={
                 "Right now, I’m working on some exciting projects that I can’t wait to share with you. But I’m always open to new opportunities and collaborations."
@@ -52,7 +51,9 @@ const About = () => {
           </div>
 
           <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
-            <div className="flex flex-col gap-4 md:gap-3">
+            <Image src={imge2} className="rounded-xl mr-6 p-6" alt={'Street art'} />
+            <Image src={imge} className="rounded-xl p-6" alt={'Street art'} />
+            {/* <div className="flex flex-col gap-4 md:gap-3">
               <AnimatedTitle
                 text={"Frontend Tools"}
                 className={
@@ -96,7 +97,7 @@ const About = () => {
                   "Figma, FigJam, Adobe XD, ProtoPie, Adobe Photoshop, UX Research, UI Design, Prototyping."
                 }
               />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="mt-10 flex flex-col md:-mt-0 lg:mt-28">

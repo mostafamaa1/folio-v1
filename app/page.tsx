@@ -10,7 +10,8 @@ import NavBar from "./navbar/NavBar";
 import dynamic from "next/dynamic";
 const Work = dynamic(() => import("./work-section/Work"));
 const About = dynamic(() => import("./about-section/About"));
-const Blog = dynamic(() => import("./blog-section/BlogGrid"));
+const Services = dynamic(() => import("./work-section/Service"));
+// const Blog = dynamic(() => import("./blog-section/BlogGrid"));
 const Contact = dynamic(() => import("./contact-section/Contact"));
 const Footer = dynamic(() => import("./footer/Footer"));
 
@@ -40,9 +41,10 @@ export default function Home() {
       {/* <ScrollerMotion> */}
       <main className="flex flex-col items-center justify-center">
         <Hero />
-        <Work />
+        <Services />
         <About />
-        <Blog />
+        <Work />
+        {/* <Blog /> */}
         <Contact />
         <Footer />
       </main>
