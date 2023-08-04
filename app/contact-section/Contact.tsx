@@ -68,7 +68,7 @@ const Contact = () => {
               <InstaIcon />
             </motion.div>
           </Link>
-          <Link
+          {/* <Link
             href="https://www.linkedin.com/in/victor-williams-chukwudi/"
             target="_blank"
             aria-label="View LinkedIn Profile"
@@ -79,7 +79,7 @@ const Contact = () => {
             >
               <LinkedinIcon />
             </motion.div>
-          </Link>
+          </Link> */}
           <Link
             href="https://twitter.com/victorwill__"
             target="_blank"

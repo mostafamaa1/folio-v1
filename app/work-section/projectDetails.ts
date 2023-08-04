@@ -19,21 +19,21 @@ export type ProjectProps = {
 export const servicesDetails: Service[] = [
   {
     id: 1,
-    title: 'Web Development',
-    description: 'We create beautiful, responsive, and fast websites using the latest technologies.',
-    icon: '🌐',
+    title: 'Film Production',
+    description: 'Unleash your imagination with our top-tier film production services, where creative excellence meets cutting-edge technology to bring captivating cinematic stories to life.',
+    icon: '🎥',
   },
   {
     id: 2,
-    title: 'Mobile App Development',
-    description: 'We build cross-platform mobile applications for iOS and Android.',
-    icon: '📱',
+    title: 'Modeling',
+    description: 'Empowering aspiring models through comprehensive and personalized model management services, guiding their careers to new heights.',
+    icon: '🎨',
   },
   {
     id: 3,
-    title: 'UI/UX Design',
-    description: 'Our team of designers will make your product look stunning and user-friendly.',
-    icon: '🎨',
+    title: 'Photography',
+    description: 'Capturing moments that last a lifetime, our photography services offer artistic and professional imagery to preserve your most cherished memories.',
+    icon: '📸',
   },
   // Add more services as needed
 ];
@@ -68,12 +68,12 @@ export const devProjects = [
     image: require(".//../../public/projects/p1.jpg"),
     available: true,
   },
-  // {
-  //   id: 2,
-  //   name: "Fashion",
-  //   image: require(".//../../public/projects/p4.jpg"),
-  //   available: true,
-  // },
+  {
+    id: 2,
+    name: "Fashion",
+    image: require(".//../../public/projects/p4.jpg"),
+    available: true,
+  },
   // {
   //   id: 3,
   //   name: "Modelling",

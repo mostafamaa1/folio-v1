@@ -19,7 +19,7 @@ const NavBar = () => {
 
   return (
     <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[306px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[383.3px] md:p-2 lg:w-[391.3px]">
-      <Link
+      {/* <Link
         href="https://drive.google.com/file/d/1XZPlj1js43hdIOH63nF0V_n4x_p80vhw/view"
         target="_blank"
         className="flex"
@@ -31,7 +31,7 @@ const NavBar = () => {
           icon={faFilePdf}
           className="py-2 px-2 text-[16px] sm:px-4 md:py-1"
         />
-      </Link>
+      </Link> */}
 
       <Link
         href="#home"
@@ -43,16 +43,6 @@ const NavBar = () => {
           Home
         </h4>
       </Link>
-      <Link
-        href="#work"
-        data-blobity-magnetic="false"
-        onClick={handleScroll}
-        aria-label="Scroll to Work Section"
-      >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Work
-        </h4>
-      </Link>
 
       <Link
         href="#about"
@@ -62,6 +52,17 @@ const NavBar = () => {
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
           About
+        </h4>
+      </Link>
+      
+      <Link
+        href="#work"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to Work Section"
+      >
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+          Work
         </h4>
       </Link>
 

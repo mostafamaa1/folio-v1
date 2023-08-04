@@ -13,7 +13,7 @@ export const initialBlobityOptions = {
     opacity: 1,
     fontColor: "#0e1016",
     zIndex: 100,
-    size: 40,
-    radius: 4,
+    size: 30,
+    radius: 3,
     magnetic: true,
   }  

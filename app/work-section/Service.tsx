@@ -11,10 +11,10 @@ const Service = () => {
     >
        <AnimatedTitle
           text={
-            "SERVICES"
+            "What does Abohadid offers?"
           }
           className={
-            "mb-10 text-center text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#363130] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
+            "mb-10 text-center text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#363130] sm:text-[45px] md:mb-16 md:text-[50px] lg:text-[70px]"
           }
           wordSpace={"mr-[14px]"}
           charSpace={"mr-[0.001em]"}

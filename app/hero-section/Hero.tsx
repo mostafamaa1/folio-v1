@@ -6,8 +6,9 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/hadid.jpg";
+import profile from "../../public/hadid1.jpeg";
 import { InstaIcon, LinkedinIcon, TwitterIcon } from "../Icons";
+import AnimatedTitle from "../animations/AnimatedTitle";
 
 const Hero = () => {
   return (
@@ -24,22 +25,21 @@ const Hero = () => {
           <Link
             href="https://drive.google.com/file/d/1XZPlj1js43hdIOH63nF0V_n4x_p80vhw/view"
             target="_blank"
-            aria-label="View Resume"
+            aria-label="Hadid"
           >
-            <motion.div
-              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
-              variants={bodyAnimation}
-            >
-              HADID
-            </motion.div>
+            <AnimatedTitle
+            text={'ABOHADID'}
+            className={"hidden sm:block lg:block text-2xl text-[#e4ded7] font-bold mb-2"} 
+            wordSpace={''} charSpace={''}     />
+              
           </Link>
         </div>
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/victorcodess"
+            href="https://instagram.com/abohadidd"
             target="_blank"
-            aria-label="View GitHub Profile"
+            aria-label="View Insta Profile"
           >
             <motion.div
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
@@ -48,7 +48,7 @@ const Hero = () => {
               <InstaIcon />
             </motion.div>
           </Link>
-          <Link
+          {/* <Link
             href="https://www.linkedin.com/in/victor-williams-chukwudi/"
             target="_blank"
             aria-label="View LinkedIn Profile"
@@ -59,9 +59,9 @@ const Hero = () => {
             >
               <LinkedinIcon />
             </motion.div>
-          </Link>
+          </Link> */}
           <Link
-            href="https://twitter.com/victorwill__"
+            href="https://twitter.com/"
             target="_blank"
             aria-label="View Twitter Profile"
           >
@@ -80,7 +80,7 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
           <AnimatedWords
-            title="HASSAN YOUSEF"
+            title="HASSAN YOUSIF"
             style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
           />
           <motion.div
