@@ -6,7 +6,7 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/hadid1.jpeg";
+import profile from "../../public/hadid.jpeg";
 import { InstaIcon, LinkedinIcon, TwitterIcon } from "../Icons";
 import AnimatedTitle from "../animations/AnimatedTitle";
 
