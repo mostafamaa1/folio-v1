@@ -7,11 +7,13 @@ import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedWords2 from "../animations/AnimatedWords2";
 import { motion } from "framer-motion";
 import heartIcon from "../../public/heart icon.png";
+import { InstaIcon, LinkedinIcon, TwitterIcon } from "../Icons";
+import { bodyAnimation } from "../animations/animations";
 
 const Contact = () => {
   return (
     <motion.section
-      className="relative z-10 flex h-[85vh] w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center py-16 md:h-[80vh] md:py-20 lg:h-[90vh] lg:pt-0 lg:pb-28"
+      className="relative z-10 flex h-[85vh] w-full items-center justify-center overflow-hidden bg-[#F6F4F3] bg-cover bg-center py-16 md:h-[80vh] md:py-20 lg:h-[90vh] lg:pt-0 lg:pb-28"
       id="contact"
       initial="initial"
       animate="animate"
@@ -23,7 +25,7 @@ const Contact = () => {
           <AnimatedWords2
             title={"Let's Talk"}
             style={
-              "flex max-w-[500px] flex-col items-start text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[170px] md:text-[200px] lg:text-center lg:text-[270px] xl:text-[300px]"
+              "flex max-w-[500px] flex-col items-start text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#363130] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[170px] md:text-[200px] lg:text-center lg:text-[270px] xl:text-[300px]"
             }
           />
           <Image
@@ -40,91 +42,57 @@ const Contact = () => {
                 "Got a question, proposal, project, or want to work together on something?"
               }
               className={
-                "-mb-1 inline-block overflow-hidden pt-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
+                "-mb-1 inline-block text-[#363130] overflow-hidden pt-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
               }
             />
             <Link
               href="mailto:?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
               target="_blank"
               aria-label="Send me an email"
-              className="mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:w-[170px] lg:mt-4"
+              className="mt-1 w-[147px] flex-1 text-[#363130] underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:w-[170px] lg:mt-4"
             >
-              <AnimatedBody text={"Send me an email"} className={""} />
+              <AnimatedBody text={"Send me an email"} className={"text-[#363130]"} />
             </Link>
           </div>
 
-          <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
-            <Link
-              href="#"
-              target="_blank"
-              aria-label="View GitHub Profile"
+          <div className="flex gap-10 text-[#363130] mr-16 sm:gap-12 md:gap-14 lg:gap-14">
+          <Link
+            href="https://github.com/victorcodess"
+            target="_blank"
+            aria-label="View GitHub Profile"
+          >
+            <motion.div
+              className="text-[16px] font-bold text-[#363130] md:text-[16px]"
+              variants={bodyAnimation}
             >
-              <AnimatedTitle
-                text={"GH"}
-                className={
-                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
-            </Link>
-            <Link
-              href="#"
-              target="_blank"
-              aria-label="View LinkedIn Profile"
+              <InstaIcon />
+            </motion.div>
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            target="_blank"
+            aria-label="View LinkedIn Profile"
+          >
+            <motion.div
+              className="text-[16px] font-bold text-[#363130] md:text-[16px]"
+              variants={bodyAnimation}
             >
-              <AnimatedTitle
-                text={"LN"}
-                className={
-                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
-            </Link>
-            <Link
-              href="#"
-              target="_blank"
-              aria-label="View Twitter Profile"
+              <LinkedinIcon />
+            </motion.div>
+          </Link>
+          <Link
+            href="https://twitter.com/victorwill__"
+            target="_blank"
+            aria-label="View Twitter Profile"
+          >
+            <motion.div
+              className="text-[16px] font-bold text-[#363130] md:text-[16px]"
+              variants={bodyAnimation}
             >
-              <AnimatedTitle
-                text={"TW"}
-                className={
-                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
-            </Link>
-            <Link
-              href="#"
-              target="_blank"
-              aria-label="View Instagram Profile"
-            >
-              <AnimatedTitle
-                text={"IG"}
-                className={
-                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
-            </Link>
-            <Link
-              href="h#"
-              target="_blank"
-              aria-label="View Hashnode Profile"
-            >
-              <AnimatedTitle
-                text={"HN"}
-                className={
-                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
-            </Link>
-          </div>
+              <TwitterIcon />
+            </motion.div>
+          </Link>
+        </div>
         </div>
       </div>
     </motion.section>

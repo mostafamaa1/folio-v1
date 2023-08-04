@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import Link from "next/link";
 import Image from "next/image";
 import { monaSans } from "../fonts/monaSans";
@@ -5,11 +7,12 @@ import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
 import profile from "../../public/hadid.jpg";
+import { InstaIcon, LinkedinIcon, TwitterIcon } from "../Icons";
 
 const Hero = () => {
   return (
     <motion.section
-      className="relative z-10 flex h-[80vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0 sm:h-[90vh]  md:h-[100vh]"
+      className="relative z-10 flex h-[80vh] w-full items-stretch justify-center bg-[#363130] bg-cover  bg-center py-0 sm:h-[90vh]  md:h-[100vh]"
       id="home"
       initial="initial"
       animate="animate"
@@ -23,12 +26,12 @@ const Hero = () => {
             target="_blank"
             aria-label="View Resume"
           >
-            <motion.button
+            <motion.div
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
-              VIEW RESUME
-            </motion.button>
+              HADID
+            </motion.div>
           </Link>
         </div>
 
@@ -38,36 +41,36 @@ const Hero = () => {
             target="_blank"
             aria-label="View GitHub Profile"
           >
-            <motion.p
+            <motion.div
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              GH
-            </motion.p>
+              <InstaIcon />
+            </motion.div>
           </Link>
           <Link
             href="https://www.linkedin.com/in/victor-williams-chukwudi/"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
-            <motion.p
+            <motion.div
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              LN
-            </motion.p>
+              <LinkedinIcon />
+            </motion.div>
           </Link>
           <Link
             href="https://twitter.com/victorwill__"
             target="_blank"
             aria-label="View Twitter Profile"
           >
-            <motion.p
+            <motion.div
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              TW
-            </motion.p>
+              <TwitterIcon />
+            </motion.div>
           </Link>
         </div>
       </div>
@@ -77,7 +80,7 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
           <AnimatedWords
-            title="HASSAN JOUMAH"
+            title="HASSAN YOUSEF"
             style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
           />
           <motion.div
@@ -100,26 +103,18 @@ const Hero = () => {
       <div
         className="absolute bottom-10 flex items-center 
       justify-center
-      md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-between"
+      md:bottom-10 lg:w-[90%] lg:max-w-[1440px]"
       >
         <motion.div
           className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
           variants={bodyAnimation}
         >
-          <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Product Designer, currently at{" "}
-            <Link
-              href="https://crownbrandingagency.com/ "
-              target="_blank"
-              className="underline underline-offset-2 hover:no-underline"
-              aria-label="Crown Branding Agency Website"
-            >
-              Crown Branding Agency.
-            </Link>
+          <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[16px]">
+            A Personal Portfolio Featuring Hassan's Work.
           </p>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           className="  hidden max-w-[500px] lg:block lg:max-w-[420px]"
           variants={bodyAnimation}
         >
@@ -127,7 +122,7 @@ const Hero = () => {
             Focused on interfaces and experiences, working remotely from Lagos,
             Nigeria.
           </p>
-        </motion.div>
+        </motion.div> */}
       </div>
     </motion.section>
   );

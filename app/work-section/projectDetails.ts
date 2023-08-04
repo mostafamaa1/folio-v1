@@ -68,18 +68,18 @@ export const devProjects = [
     image: require(".//../../public/projects/p1.jpg"),
     available: true,
   },
-  {
-    id: 2,
-    name: "Fashion",
-    image: require(".//../../public/projects/p4.jpg"),
-    available: true,
-  },
-  {
-    id: 3,
-    name: "Modelling",
-    image: require(".//../../public/projects/p3.jpg"),
-    available: true,
-  },
+  // {
+  //   id: 2,
+  //   name: "Fashion",
+  //   image: require(".//../../public/projects/p4.jpg"),
+  //   available: true,
+  // },
+  // {
+  //   id: 3,
+  //   name: "Modelling",
+  //   image: require(".//../../public/projects/p3.jpg"),
+  //   available: true,
+  // },
   // {
   //   id: 6,
   //   name: "Link Shortener",
