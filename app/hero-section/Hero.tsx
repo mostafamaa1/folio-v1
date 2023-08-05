@@ -55,7 +55,7 @@ const Hero = () => {
             </motion.div>
           </Link> */}
           <Link
-            href="https://twitter.com/"
+            href="https://twitter.com/6hadid"
             target="_blank"
             aria-label="View Twitter Profile"
           >

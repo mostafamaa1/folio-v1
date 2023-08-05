@@ -30,7 +30,7 @@ const ProjectCard = ({
               {/* <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
                 Developer
               </p> */}
-              <p className="text-lg font-bold text-white text-center sm:text-xl">Hadid Wears</p> 
+              <p className="text-lg font-bold text-white text-center sm:text-xl"></p> 
               <div className="mt-32 sm:mt-48 lg:mt-64">
     
                   <p className="text-lg text-white">

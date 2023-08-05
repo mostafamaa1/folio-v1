@@ -57,7 +57,7 @@ const Contact = () => {
 
           <div className="flex gap-10 text-[#363130] mr-16 sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/victorcodess"
+            href="https://instagram.com/abohadidd"
             target="_blank"
             aria-label="View GitHub Profile"
           >
@@ -81,7 +81,7 @@ const Contact = () => {
             </motion.div>
           </Link> */}
           <Link
-            href="https://twitter.com/victorwill__"
+            href="https://twitter.com/6hadid"
             target="_blank"
             aria-label="View Twitter Profile"
           >
