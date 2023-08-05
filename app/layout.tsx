@@ -11,7 +11,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "ABOHADID | PORTFOLIO",
+  title: "ABOHADID",
   description:
     "",
   generator: "Next.js",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   ],
   colorScheme: "dark",
   openGraph: {
-    title: "ABOHADID | PORTFOLIO",
+    title: "ABOHADID",
     description:
       "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
     url: "https://www.abohadid.com",

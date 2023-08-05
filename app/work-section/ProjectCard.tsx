@@ -16,7 +16,7 @@ const ProjectCard = ({
 }: ProjectProps) => {
   return (
     
-          <div className="group relative justify-center block bg-black">
+          <div className="group relative justify-center mx-auto block bg-black">
             <Image
             src={image}
             alt={name}
@@ -28,13 +28,11 @@ const ProjectCard = ({
               {/* <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
                 Developer
               </p> */}
-              <p className="text-xl font-bold text-white sm:text-2xl">Tony Wayne</p> 
+              <p className="text-lg font-bold text-white text-center sm:text-xl">Hadid Wears</p> 
               <div className="mt-32 sm:mt-48 lg:mt-64">
     
-                  <p className="text-sm text-white">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                    perferendis hic asperiores quibusdam quidem voluptates doloremque
-                    reiciendis nostrum harum. Repudiandae?
+                  <p className="text-lg text-white">
+                  Projects Showreel coming soon.
                   </p>
                 </div>
               </div>

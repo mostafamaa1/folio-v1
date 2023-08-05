@@ -65,15 +65,15 @@ export const devProjects = [
   {
     id: 1,
     name: "Photography",
-    image: require(".//../../public/projects/p1.jpg"),
+    image: require(".//../../public/projects/hadidd.jpeg"),
     available: true,
   },
-  {
-    id: 2,
-    name: "Fashion",
-    image: require(".//../../public/projects/p4.jpg"),
-    available: true,
-  },
+  // {
+  //   id: 2,
+  //   name: "Fashion",
+  //   image: require(".//../../public/projects/p4.jpg"),
+  //   available: true,
+  // },
   // {
   //   id: 3,
   //   name: "Modelling",
