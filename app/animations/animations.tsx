@@ -8,7 +8,7 @@ export const riseWithFade = {
     opacity: 1,
     transition: {
       ease: [0.65, 0, 0.35, 1],
-      duration: 0.7,
+      duration: 0.5,
     },
   },
 };
@@ -51,7 +51,7 @@ export const wordAnimation = {
     transition: {
       delay: 1,
       ease: [0.2, 0.65, 0.3, 0.9],
-      duration: 1,
+      duration: 0.8,
     },
   },
 };
@@ -82,7 +82,7 @@ export const bodyAnimation = {
     y: `0em`,
     transition: {
       delay: 5.5,
-      duration: 1,
+      duration: 0.8,
       ease: [0.2, 0.65, 0.3, 0.9],
     },
   },

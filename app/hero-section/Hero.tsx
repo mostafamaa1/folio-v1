@@ -6,7 +6,7 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/hadid.jpeg";
+import profile from "../../public/hadid2.jpg";
 import { InstaIcon, LinkedinIcon, TwitterIcon } from "../Icons";
 import AnimatedTitle from "../animations/AnimatedTitle";
 
@@ -22,17 +22,11 @@ const Hero = () => {
 
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
-          <Link
-            href="https://drive.google.com/file/d/1XZPlj1js43hdIOH63nF0V_n4x_p80vhw/view"
-            target="_blank"
-            aria-label="Hadid"
-          >
+        
             <AnimatedTitle
             text={'ABOHADID'}
-            className={"hidden sm:block lg:block text-2xl text-[#e4ded7] font-bold mb-2"} 
+            className={"hidden sm:block lg:block text-2xl text-[#e4ded7] font-medium mb-2"} 
             wordSpace={''} charSpace={''}     />
-              
-          </Link>
         </div>
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
@@ -92,9 +86,9 @@ const Hero = () => {
               src={profile}
               priority
               alt="Hassan's headshot"
-              data-blobity-tooltip="Classic"
+              data-blobity-tooltip="Owner"
               data-blobity-invert="false"
-              className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
+              className=" w-[150px] rounded-[16px] grayscale md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
           </motion.div>
         </div>

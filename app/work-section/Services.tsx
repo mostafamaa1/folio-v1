@@ -21,15 +21,13 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service }) => {
       exit={{ opacity: 0 }}
     >
       <div className="text-4xl text-center mb-4">{service.icon}</div>
-      <AnimatedTitle
-        text={service.title}
-        className={"text-xl text-center text-[#363130] font-bold mb-2"} 
-        wordSpace={''} charSpace={''}     />
+      <h1
+        className="text-xl text-center text-[#363130] font-bold mb-2" 
+        >{service.title}</h1>
       {/* <h3 className="text-xl text-center font-bold mb-2">{service.title}</h3> */}
-      <AnimatedBody
-              text={service.description}
+      <p
               className='text-gray-600 text-center'
-            />
+            >{service.description}</p>
       {/* <p className="text-gray-600 text-center">{service.description}</p> */}
     </motion.div>
   );
