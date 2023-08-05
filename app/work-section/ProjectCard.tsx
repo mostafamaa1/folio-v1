@@ -16,6 +16,8 @@ const ProjectCard = ({
 }: ProjectProps) => {
   return (
     
+          // TODO:  Card Size must be fixed, description text changes card size
+          // Project Card
           <div className="group relative justify-center mx-auto block bg-black">
             <Image
             src={image}

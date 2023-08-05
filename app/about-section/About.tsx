@@ -17,7 +17,7 @@ const About = () => {
         <h1
           className=
             "mb-10 text-left text-[35px] font-bold leading-[0.9em] tracking-tighter text-[#363130] sm:text-[40px] md:mb-16 md:text-[50px] lg:text-[70px]"
-         >I CRAFT STUNNING CONTENT, EMPOWERS WEBSITES, AND CAPTIVATES AUDIENCES.</h1>
+         >IMAGINATION CREATES REALITY</h1>
 
         <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-20">
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#363130] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
