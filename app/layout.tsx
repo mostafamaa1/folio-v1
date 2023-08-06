@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     creator: "m1dev",
     creatorId: "1243720976552144897",
     images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+      "https://github.com/mostafamaa1/folio-v1/assets/81513055/bc1e3a1b-c42b-4b2e-b5f7-ec779efc0e81",
     ],
   },
   robots: {
