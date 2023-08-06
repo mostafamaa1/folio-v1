@@ -39,15 +39,15 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ABOHADID",
     description:
-      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+      "Film Production management and Modeling. Based in Saudi Arabia.",
     url: "https://www.abohadid.com",
     siteName: "www.abohadid.com",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "",
         width: 1200,
         height: 630,
-        alt: "Victor Williams — Frontend Engineer",
+        alt: "ABOHADID",
       },
     ],
     locale: "en-US",
@@ -55,10 +55,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Victor Williams — Frontend Engineer",
+    title: "ABOHADID",
     description:
-      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    creator: "victorwill__",
+      "Film Production management and Modeling. Based in Saudi Arabia",
+    creator: "m1dev",
     creatorId: "1243720976552144897",
     images: [
       "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
