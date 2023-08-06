@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ABOHADID",
     description:
-      "Film Production management and Modeling. Based in Saudi Arabia.",
+      "Film Production services and Modeling management. Based in Saudi Arabia",
     url: "https://www.abohadid.com",
     siteName: "www.abohadid.com",
     images: [
